@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800);
+html {
+  font-family: 'Open Sans', sans-serif;
+  color: #222;
+}
+.header {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.header h1 {
+  font-weight: 300;
+  color: #222;
+  text-transform: uppercase;
+}
+.features {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.features h5 {
+  font-weight: 400;
+}
+.aboutus {
+  padding-top: 60px;
+}
+.aboutus p {
+  font-weight: 400;
+}
+.aboutus p {
+  font-weight: 400;
+}
