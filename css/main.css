@@ -1,1 +1,304 @@
-@import "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800";body,html{height:100%;width:100%;margin:0;padding:0;left:0;top:0;font-size:100%;font-family:'Open Sans',sans-serif;color:#222;font-weight:400}.center,.container{margin-left:auto;margin-right:auto}*{line-height:1.5}h1{font-size:2.5rem}h2{font-size:2rem}h3{font-size:1.375rem}h4{font-size:1.125rem}h5{font-size:1rem}h6{font-size:.875rem}p{font-size:1.125rem;font-weight:200;line-height:1.8}.font-light{font-weight:300}.font-regular{font-weight:400}.font-heavy{font-weight:700}.left{text-align:left}.right{text-align:right}.center{text-align:center}.justify{text-align:justify}.container{width:90%}.row{position:relative;width:100%}.row [class^=col]{float:left;margin:.5rem 2%;min-height:.125rem}.col-1,.col-10,.col-11,.col-12,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9{width:96%}.col-1-sm{width:4.33%}.col-2-sm{width:12.66%}.col-3-sm{width:21%}.col-4-sm{width:29.33%}.col-5-sm{width:37.66%}.col-6-sm{width:46%}.col-7-sm{width:54.33%}.col-8-sm{width:62.66%}.col-9-sm{width:71%}.col-10-sm{width:79.33%}.col-11-sm{width:87.66%}.col-12-sm{width:96%}.row::after{content:"";display:table;clear:both}.hidden-sm{display:none}@media only screen and (min-width:33.75em){.container{width:80%}}@media only screen and (min-width:45em){.col-1{width:4.33%}.col-2{width:12.66%}.col-3{width:21%}.col-4{width:29.33%}.col-5{width:37.66%}.col-6{width:46%}.col-7{width:54.33%}.col-8{width:62.66%}.col-9{width:71%}.col-10{width:79.33%}.col-11{width:87.66%}.col-12{width:96%}.hidden-sm{display:block}}@media only screen and (min-width:60em){.container{width:75%;max-width:60rem}}.header{padding-top:150px;padding-bottom:60px}.header h1{font-weight:300;color:#222;text-transform:uppercase}.features{padding-top:40px;padding-bottom:40px}.features h5{font-weight:400}.aboutus{padding-top:60px}.aboutus p{font-weight:400;font-size:16px}footer{background-color:#282828}.icons ul{list-style:none;text-align:center;margin-top:150px}.icons li{color:#fff;display:inline-block;padding:35px 10px}.icons a{text-decoration:none;color:#fff}.icons a:hover{color:#fefefe}.button,button,input[type="submit"],input[type="reset"],input[type="button"]{display:inline-block;height:38px;padding:0 30px;color:#555;text-align:center;font-size:11px;font-weight:600;line-height:38px;letter-spacing:.1rem;text-transform:uppercase;text-decoration:none;white-space:nowrap;background-color:transparent;border-radius:4px;border:1px solid #bbb;cursor:pointer;box-sizing:border-box}.button:hover,button:hover,input[type="submit"]:hover,input[type="reset"]:hover,input[type="button"]:hover,.button:focus,button:focus,input[type="submit"]:focus,input[type="reset"]:focus,input[type="button"]:focus{color:#333;border-color:#888;outline:0}.button.button-primary,button.button-primary,input[type="submit"].button-primary,input[type="reset"].button-primary,input[type="button"].button-primary{color:#FFF;background-color:#33C3F0;border-color:#33C3F0}.button.button-primary:hover,button.button-primary:hover,input[type="submit"].button-primary:hover,input[type="reset"].button-primary:hover,input[type="button"].button-primary:hover,.button.button-primary:focus,button.button-primary:focus,input[type="submit"].button-primary:focus,input[type="reset"].button-primary:focus,input[type="button"].button-primary:focus{color:#FFF;background-color:#1EAEDB;border-color:#1EAEDB}
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800";
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+    font-weight: 400
+}
+
+.center, .container {
+    margin-left: auto;
+    margin-right: auto
+}
+
+* {
+    line-height: 1.5
+}
+
+h1 {
+    font-size: 2.5rem
+}
+
+h2 {
+    font-size: 2rem
+}
+
+h3 {
+    font-size: 1.375rem
+}
+
+h4 {
+    font-size: 1.125rem
+}
+
+h5 {
+    font-size: 1rem
+}
+
+h6 {
+    font-size: .875rem
+}
+
+p {
+    font-size: 1.125rem;
+    font-weight: 200;
+    line-height: 1.8
+}
+
+.font-light {
+    font-weight: 300
+}
+
+.font-regular {
+    font-weight: 400
+}
+
+.font-heavy {
+    font-weight: 700
+}
+
+.left {
+    text-align: left
+}
+
+.right {
+    text-align: right
+}
+
+.center {
+    text-align: center
+}
+
+.justify {
+    text-align: justify
+}
+
+.container {
+    width: 90%
+}
+
+.row {
+    position: relative;
+    width: 100%
+}
+
+.row [class^=col] {
+    float: left;
+    margin: .5rem 2%;
+    min-height: .125rem
+}
+
+.col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9 {
+    width: 96%
+}
+
+.col-1-sm {
+    width: 4.33%
+}
+
+.col-2-sm {
+    width: 12.66%
+}
+
+.col-3-sm {
+    width: 21%
+}
+
+.col-4-sm {
+    width: 29.33%
+}
+
+.col-5-sm {
+    width: 37.66%
+}
+
+.col-6-sm {
+    width: 46%
+}
+
+.col-7-sm {
+    width: 54.33%
+}
+
+.col-8-sm {
+    width: 62.66%
+}
+
+.col-9-sm {
+    width: 71%
+}
+
+.col-10-sm {
+    width: 79.33%
+}
+
+.col-11-sm {
+    width: 87.66%
+}
+
+.col-12-sm {
+    width: 96%
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.hidden-sm {
+    display: none
+}
+
+@media only screen and (min-width:33.75em) {
+    .container {
+        width: 80%
+    }
+}
+
+@media only screen and (min-width:45em) {
+    .col-1 {
+        width: 4.33%
+    }
+    .col-2 {
+        width: 12.66%
+    }
+    .col-3 {
+        width: 21%
+    }
+    .col-4 {
+        width: 29.33%
+    }
+    .col-5 {
+        width: 37.66%
+    }
+    .col-6 {
+        width: 46%
+    }
+    .col-7 {
+        width: 54.33%
+    }
+    .col-8 {
+        width: 62.66%
+    }
+    .col-9 {
+        width: 71%
+    }
+    .col-10 {
+        width: 79.33%
+    }
+    .col-11 {
+        width: 87.66%
+    }
+    .col-12 {
+        width: 96%
+    }
+    .hidden-sm {
+        display: block
+    }
+}
+
+@media only screen and (min-width:60em) {
+    .container {
+        width: 75%;
+        max-width: 60rem
+    }
+}
+
+.header {
+    padding-top: 150px;
+    padding-bottom: 60px
+}
+
+.header h1 {
+    font-weight: 300;
+    color: #222;
+    text-transform: uppercase
+}
+
+.features {
+    padding-top: 40px;
+    padding-bottom: 40px
+}
+
+.features h5 {
+    font-weight: 400
+}
+
+.aboutus {
+    padding-top: 60px
+}
+
+.aboutus p {
+    font-weight: 400;
+    font-size: 16px
+}
+
+footer {
+    background-color: #282828
+}
+
+.icons ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 150px
+}
+
+.icons li {
+    color: #fff;
+    display: inline-block;
+    padding: 35px 10px
+}
+
+.icons a {
+    text-decoration: none;
+    color: #fff
+}
+
+.icons a:hover {
+    color: #fefefe
+}
+
+.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    color: #555;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box
+}
+
+.button:hover, button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:focus, button:focus, input[type="submit"]:focus, input[type="reset"]:focus, input[type="button"]:focus {
+    color: #333;
+    border-color: #888;
+    outline: 0
+}
+
+.button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
+    color: #FFF;
+    background-color: #33C3F0;
+    border-color: #33C3F0
+}
+
+.button.button-primary:hover, button.button-primary:hover, input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover, .button.button-primary:focus, button.button-primary:focus, input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
+    color: #FFF;
+    background-color: #1EAEDB;
+    border-color: #1EAEDB
+}
